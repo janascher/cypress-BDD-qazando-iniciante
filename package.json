@@ -1,0 +1,17 @@
+{
+  "name": "cypress-bdd-qazando-iniciante",
+  "version": "1.0.0",
+  "description": "<div  align=\"center\"> \t<a  href=\"https://qazando.com.br/\"> \t\t<img  src=\"https://github.com/janascher/cypress-qazando-iniciante/assets/79182711/fc2559f8-a64e-43be-b278-4721a78dbb1c\"  alt=\"QAZANDO\"  title=\"QAZANDO\"  width=\"250\" /> \t</a> \t<h1> \t\t🚧 Automação de Teste Web com Cypress - Básico 🚧 \t</h1> </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.7",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress": "^13.12.0"
+  }
+}
