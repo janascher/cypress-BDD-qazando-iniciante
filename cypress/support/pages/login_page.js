@@ -24,7 +24,7 @@ export default {
         cy.get(elements.buttons.login).click();
     },
 
-    checkMessage(message) {
+    checkErrorMessage(message) {
         cy.get(elements.messages.error).should('be.visible').should('contain', message);
     },
 
@@ -41,14 +41,5 @@ export default {
         cy.get(elements.messages.helloLogin)
             .should('be.visible')
             .should('contain', `Olá, ${email}`);
-    },
-
-    confirmLogin() {
-        cy.get(elements.buttons.confirmLogin).click();
-    },
-
-    checkNoAccount() {
-        cy.get(elements.links.createAccount).click();
-        cy.url().should('include', '/register');
     },
 };
