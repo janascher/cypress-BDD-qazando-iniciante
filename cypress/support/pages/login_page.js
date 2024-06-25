@@ -3,7 +3,6 @@
 const elements = {
     buttons: {
         login: '#btnLogin',
-        confirmLogin: '.swal2-confirm.swal2-styled',
     },
     messages: {
         error: '.invalid_input',
@@ -41,5 +40,13 @@ export default {
         cy.get(elements.messages.helloLogin)
             .should('be.visible')
             .should('contain', `Olá, ${email}`);
+    },
+
+    clickNoAccount() {
+        cy.get(elements.links.createAccount).click();
+    },
+
+    checkScreenRegistration() {
+        cy.url().should('include', '/register');
     },
 };
