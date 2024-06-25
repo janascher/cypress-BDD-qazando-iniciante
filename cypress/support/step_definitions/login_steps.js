@@ -28,6 +28,10 @@ When('I click on Login', () => {
     login_page.btnLogin();
 });
 
+When('I click on  I dont have an account', () => {
+    login_page.clickNoAccount();
+})
+
 Then('I see the message {string}', (message) => {
     login_page.checkErrorMessage(message);
 });
@@ -35,4 +39,8 @@ Then('I see the message {string}', (message) => {
 
 Then('I see sucess message {string}', (message) => {
     login_page.checkLoginSucess(message, random_email);
+});
+
+Then('I am redirected to the user registration page', () => {
+    login_page.checkScreenRegistration();
 });
