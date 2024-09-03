@@ -28,8 +28,8 @@ Este repositório abrange os seguintes tópicos:
 
 Este repositório faz parte de uma série de repositórios relacionados ao curso "Automação de Teste Web com Cypress". Para manter a organização e o foco, os tópicos foram distribuídos da seguinte forma:
 
-- **[cypress-qazando-iniciante]([https://github.com/seu-usuario/cypress-qazando-iniciante](https://github.com/janascher/cypress-qazando-iniciante))**: repositório principal que documenta toda a minha jornada no curso.
-- **[cypress-api-test-qazando]([https://github.com/seu-usuario/cypress-api-test-qazando](https://github.com/janascher/cypress-api-test-qazando))**: repositório dedicado aos testes de API, conforme abordado no curso.
+- **[cypress-qazando-iniciante](https://github.com/janascher/cypress-qazando-iniciante)**: repositório principal que documenta toda a minha jornada no curso.
+- **[cypress-api-test-qazando](https://github.com/janascher/cypress-api-test-qazando)**: repositório dedicado aos testes de API, conforme abordado no curso.
 
 
 ## 🦸🏻‍♀️ Autor
