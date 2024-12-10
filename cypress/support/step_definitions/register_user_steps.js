@@ -2,7 +2,7 @@
 
 import { Given, Then, When } from '@badeball/cypress-cucumber-preprocessor';
 import { faker } from '@faker-js/faker';
-import home_page from '../pages/home_page';
+import top_header from '../pages/header/top_header';
 import register_page from '../pages/register_page';
 
 const user_valid_data = require('../../fixtures/valid_data.json');
@@ -12,7 +12,7 @@ const random_name = faker.person.fullName();
 const random_email = faker.internet.email();
 
 Given('I am on register screen', () => {
-    home_page.accessRegister();
+    top_header.accessRegister();
 });
 
 Given('I fill name', () => {
